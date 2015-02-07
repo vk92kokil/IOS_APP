@@ -1,2 +1,2 @@
 # IOS_APP
-First iOS app like twitter
+My first iOS app like twitter
