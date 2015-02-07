@@ -12,6 +12,8 @@ class PostViewController: UIViewController {
 
     @IBOutlet weak var textArea: UITextView!
     @IBOutlet weak var wordCount: UILabel!
+    var filepath:String = "/Users/vikramaditya/Documents/abc.txt" //change if required
+    
     var width:CGFloat = UIScreen.mainScreen().bounds.size.width
     var height:CGFloat = UIScreen.mainScreen().bounds.size.height
     
@@ -38,9 +40,9 @@ class PostViewController: UIViewController {
             var str:NSString = "\(textArea.text)\n"
             var text:NSData = str.dataUsingEncoding(NSUTF8StringEncoding)!
             
-            if NSFileManager.defaultManager().fileExistsAtPath("/Users/vikramaditya/Documents/abc.txt") {
+            if NSFileManager.defaultManager().fileExistsAtPath(filepath) {
                 var err:NSError?
-                if let fileHandle = NSFileHandle(forWritingAtPath: "/Users/vikramaditya/Documents/abc.txt") {
+                if let fileHandle = NSFileHandle(forWritingAtPath: filepath) {
                     fileHandle.seekToEndOfFile()
                     fileHandle.writeData(text)
                     fileHandle.closeFile()

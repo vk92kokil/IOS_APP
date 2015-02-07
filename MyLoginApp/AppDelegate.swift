@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         //
-        var request = NSMutableURLRequest(URL: NSURL(string: "http://192.168.1.143:3000/login")!)
+        var request = NSMutableURLRequest(URL: NSURL(string: "http://ip.jsontest.com/")!)
         var session = NSURLSession.sharedSession()
         request.HTTPMethod = "POST"
         

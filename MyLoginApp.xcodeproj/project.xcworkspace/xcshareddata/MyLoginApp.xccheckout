@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01A1359C-D07B-4DC8-82B9-EFA6DB0F8094</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyLoginApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CBE1DB5ED9D5D88606315BB92D442BC19765B2C9</key>
+		<string>https://github.com/vk92kokil/IOS_APP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyLoginApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CBE1DB5ED9D5D88606315BB92D442BC19765B2C9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vk92kokil/IOS_APP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CBE1DB5ED9D5D88606315BB92D442BC19765B2C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CBE1DB5ED9D5D88606315BB92D442BC19765B2C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyLoginApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -21,6 +21,8 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     //var transitionOperator = TransitionOperator()
     var width:CGFloat = UIScreen.mainScreen().bounds.size.width
     var height:CGFloat = UIScreen.mainScreen().bounds.size.height
+    var filepath:String = "/Users/vikramaditya/Documents/abc.txt" //change if required
+    
     override func viewDidLoad() {
         //loadData()
         super.viewDidLoad()
@@ -88,7 +90,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         var data:NSMutableArray = NSMutableArray()
         data.removeAllObjects()
         NO_OF_POSTS = 0
-        filePoiner = FileReader(path: "/Users/vikramaditya/Documents/abc.txt")
+        filePoiner = FileReader(path: filepath)
         while var line = filePoiner?.nextLine(){
             data.addObject(line)
             NO_OF_POSTS++

@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BE02519F1A822D34009D503E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE02519E1A822D34009D503E /* FacebookSDK.framework */; };
-		BE0251A41A824CA4009D503E /* NavigationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0251A01A824CA4009D503E /* NavigationCell.swift */; };
-		BE0251A91A824CD9009D503E /* TransitionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0251A81A824CD9009D503E /* TransitionOperator.swift */; };
 		BE0251AF1A829283009D503E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0251AE1A829283009D503E /* PostViewController.swift */; };
-		BE5088B61A83B035009DD278 /* MyLoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5088B51A83B035009DD278 /* MyLoginAppTests.swift */; };
 		BE5088BA1A83B3F8009DD278 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5088B91A83B3F8009DD278 /* TimelineViewController.swift */; };
 		BE5088BE1A83B4CD009DD278 /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5088BD1A83B4CD009DD278 /* TimelineCell.swift */; };
 		BE581C621A83D99800F2F9B3 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE581C611A83D99800F2F9B3 /* FileReader.swift */; };
+		BE8E2CA61A8619F1007DF654 /* sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E2CA51A8619F1007DF654 /* sidebar.swift */; };
+		BE8E2CA81A861A6B007DF654 /* sidebarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E2CA71A861A6B007DF654 /* sidebarTableViewController.swift */; };
+		BE8E2CAA1A861ABE007DF654 /* TransitionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E2CA91A861ABE007DF654 /* TransitionOperator.swift */; };
+		BE8E2CAC1A861B09007DF654 /* NavigationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E2CAB1A861B09007DF654 /* NavigationCell.swift */; };
+		BE8E2CAE1A8620E5007DF654 /* MyLoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E2CAD1A8620E5007DF654 /* MyLoginAppTests.swift */; };
 		BEBA79991A7F986B006518F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA79981A7F986B006518F4 /* AppDelegate.swift */; };
 		BEBA799B1A7F986B006518F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA799A1A7F986B006518F4 /* ViewController.swift */; };
 		BEBA799E1A7F986B006518F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBA799C1A7F986B006518F4 /* Main.storyboard */; };
@@ -38,8 +40,6 @@
 		BEBEB3AD1A80D34E0079CEEA /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBEB3A81A80D34E0079CEEA /* ParseCrashReporting.framework */; };
 		BEBEB3AE1A80D34E0079CEEA /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBEB3A91A80D34E0079CEEA /* ParseFacebookUtils.framework */; };
 		BEBEB3AF1A80D34E0079CEEA /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBEB3AA1A80D34E0079CEEA /* ParseUI.framework */; };
-		BEC11C871A836CB000D3BA73 /* sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC11C851A836CB000D3BA73 /* sidebar.swift */; };
-		BEC11C881A836CB000D3BA73 /* sidebarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC11C861A836CB000D3BA73 /* sidebarTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,15 @@
 
 /* Begin PBXFileReference section */
 		BE02519E1A822D34009D503E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		BE0251A01A824CA4009D503E /* NavigationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationCell.swift; path = "../../../../Downloads/Final Project/NavTransition/NavigationCell.swift"; sourceTree = "<group>"; };
-		BE0251A81A824CD9009D503E /* TransitionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionOperator.swift; path = "../../../../Downloads/Final Project/NavTransition/TransitionOperator.swift"; sourceTree = "<group>"; };
 		BE0251AE1A829283009D503E /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		BE5088B51A83B035009DD278 /* MyLoginAppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyLoginAppTests.swift; path = ../../../../.Trash/MyLoginAppTests.swift; sourceTree = "<group>"; };
 		BE5088B91A83B3F8009DD278 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		BE5088BD1A83B4CD009DD278 /* TimelineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
 		BE581C611A83D99800F2F9B3 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		BE8E2CA51A8619F1007DF654 /* sidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidebar.swift; sourceTree = "<group>"; };
+		BE8E2CA71A861A6B007DF654 /* sidebarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidebarTableViewController.swift; sourceTree = "<group>"; };
+		BE8E2CA91A861ABE007DF654 /* TransitionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionOperator.swift; sourceTree = "<group>"; };
+		BE8E2CAB1A861B09007DF654 /* NavigationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCell.swift; sourceTree = "<group>"; };
+		BE8E2CAD1A8620E5007DF654 /* MyLoginAppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLoginAppTests.swift; sourceTree = "<group>"; };
 		BEBA79931A7F986B006518F4 /* MyLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA79971A7F986B006518F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEBA79981A7F986B006518F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,8 +91,6 @@
 		BEBEB3A91A80D34E0079CEEA /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		BEBEB3AA1A80D34E0079CEEA /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		BEBEB3B11A80D47E0079CEEA /* MyLoginApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLoginApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		BEC11C851A836CB000D3BA73 /* sidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sidebar.swift; path = ../../../blurrysidebar/sidebar.swift; sourceTree = "<group>"; };
-		BEC11C861A836CB000D3BA73 /* sidebarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sidebarTableViewController.swift; path = ../../../blurrysidebar/sidebarTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,11 +150,11 @@
 		BEBA79951A7F986B006518F4 /* MyLoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				BEC11C851A836CB000D3BA73 /* sidebar.swift */,
+				BE8E2CA51A8619F1007DF654 /* sidebar.swift */,
 				BE5088BD1A83B4CD009DD278 /* TimelineCell.swift */,
 				BE5088B91A83B3F8009DD278 /* TimelineViewController.swift */,
-				BEC11C861A836CB000D3BA73 /* sidebarTableViewController.swift */,
-				BE0251A01A824CA4009D503E /* NavigationCell.swift */,
+				BE8E2CA71A861A6B007DF654 /* sidebarTableViewController.swift */,
+				BE8E2CAB1A861B09007DF654 /* NavigationCell.swift */,
 				BE0251AE1A829283009D503E /* PostViewController.swift */,
 				BEBEB3B11A80D47E0079CEEA /* MyLoginApp-Bridging-Header.h */,
 				BEBA79981A7F986B006518F4 /* AppDelegate.swift */,
@@ -164,7 +164,7 @@
 				BEBA79A11A7F986B006518F4 /* LaunchScreen.xib */,
 				BEBA79961A7F986B006518F4 /* Supporting Files */,
 				BEBA79B81A7FAB16006518F4 /* LoginVCViewController.swift */,
-				BE0251A81A824CD9009D503E /* TransitionOperator.swift */,
+				BE8E2CA91A861ABE007DF654 /* TransitionOperator.swift */,
 				BEBA79BA1A7FAD9E006518F4 /* SignupVC.swift */,
 				BE581C611A83D99800F2F9B3 /* FileReader.swift */,
 			);
@@ -182,7 +182,7 @@
 		BEBA79AB1A7F986B006518F4 /* MyLoginAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE5088B51A83B035009DD278 /* MyLoginAppTests.swift */,
+				BE8E2CAD1A8620E5007DF654 /* MyLoginAppTests.swift */,
 				BEBA79AC1A7F986B006518F4 /* Supporting Files */,
 			);
 			path = MyLoginAppTests;
@@ -329,16 +329,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5088BA1A83B3F8009DD278 /* TimelineViewController.swift in Sources */,
-				BEC11C871A836CB000D3BA73 /* sidebar.swift in Sources */,
+				BE8E2CA61A8619F1007DF654 /* sidebar.swift in Sources */,
 				BE5088BE1A83B4CD009DD278 /* TimelineCell.swift in Sources */,
+				BE8E2CAC1A861B09007DF654 /* NavigationCell.swift in Sources */,
 				BEBA79BB1A7FAD9E006518F4 /* SignupVC.swift in Sources */,
 				BEBA799B1A7F986B006518F4 /* ViewController.swift in Sources */,
 				BEBA79991A7F986B006518F4 /* AppDelegate.swift in Sources */,
 				BE581C621A83D99800F2F9B3 /* FileReader.swift in Sources */,
-				BE0251A91A824CD9009D503E /* TransitionOperator.swift in Sources */,
-				BEC11C881A836CB000D3BA73 /* sidebarTableViewController.swift in Sources */,
+				BE8E2CA81A861A6B007DF654 /* sidebarTableViewController.swift in Sources */,
+				BE8E2CAA1A861ABE007DF654 /* TransitionOperator.swift in Sources */,
 				BEBA79B91A7FAB16006518F4 /* LoginVCViewController.swift in Sources */,
-				BE0251A41A824CA4009D503E /* NavigationCell.swift in Sources */,
 				BE0251AF1A829283009D503E /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5088B61A83B035009DD278 /* MyLoginAppTests.swift in Sources */,
+				BE8E2CAE1A8620E5007DF654 /* MyLoginAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
